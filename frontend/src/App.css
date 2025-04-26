@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+/* تخصيص شكل البولينز */
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  border: 1px solid gray !important;
+  opacity: 1 !important;
+  background: #fff !important;
+}
+
+/* تخصيص البولين النشط */
+.swiper-pagination-bullet-active {
+  background: rgb(0, 250, 146) !important; /* الخلفية الزرقاء */
+  color: #fff !important; /* النص الداخلي أبيض */
+  border: none !important;
+}
+
+/* تخصيص موقع الباجينيشن */
+.swiper-pagination {
+  top: 90% !important;
+}
+
+/* تخصيص شكل السلايدر الحالي */
+.swiper-slide.swiper-slide-next {
+  background: rgb(0, 250, 146) !important; /* اللون الأخضر الفاتح */
+  padding: 20px; /* تغيير البادينج لجعل السلايدر أكثر اتساعًا */
+  border-radius: 15px; /* تعيين حدود دائرية أكثر وضوحًا */
+  box-shadow: 0px 15px 50px rgba(0, 250, 146, 0.4) !important; /* إضافة تأثير ظل لتسليط الضوء */
+}
+
+/* تخصيص النص داخل السلايدر النشط */
+.swiper-slide.swiper-slide-next h4,
+.swiper-slide.swiper-slide-next p {
+  color: #ffffff !important; /* النص الداخلي أبيض */
+}
+
+/* تخصيص البادينج في السلايدر */
+.swiper {
+  padding-bottom: 70px !important; /* تغيير البادينج السفلي للسلايدر */
+}
+
+
+
